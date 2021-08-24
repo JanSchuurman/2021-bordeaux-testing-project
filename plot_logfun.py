@@ -1,7 +1,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-from logistic import iterate_f
+from population_growth import iterate_f
 
 def plot_trajectory(n, r, x0, fname="single_trajectory.png"):
     """
